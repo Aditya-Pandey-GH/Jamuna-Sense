@@ -1,0 +1,95 @@
+/* SECTION WRAPPER (Card content already exists) */
+.reports-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/* REPORT ROW — compact & sharp */
+.report-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+
+  padding: 0.9rem 1.1rem;
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+
+  border-left: 4px solid #2563eb;
+
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.report-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+}
+
+/* TEXT INFO */
+.report-info h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 0.15rem;
+}
+
+.stretch {
+  font-size: 0.8rem;
+  color: #475569;
+}
+
+.time {
+  font-size: 0.7rem;
+  color: #94a3b8;
+}
+
+/* SEVERITY — small & serious */
+.severity {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* COLORS */
+.severity.critical {
+  background: #ef4444;
+  color: #fff;
+}
+
+.severity.high {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.severity.medium {
+  background: #fde047;
+  color: #1e293b;
+}
+
+/* CTA — quieter, not shouting */
+.report-btn {
+  margin-top: 1.2rem;
+  width: 100%;
+  padding: 0.75rem;
+
+  background: transparent;
+  border: 2px dashed #2563eb;
+  border-radius: 10px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #2563eb;
+
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.report-btn:hover {
+  background: rgba(37, 99, 235, 0.1);
+}
