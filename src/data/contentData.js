@@ -31,33 +31,6 @@ export const impactCards = [
   },
 ];
 
-export const didYouKnowFacts = [
-  {
-    fact: "A 22km stretch in Delhi represents only 2% of the Yamuna's total length but contributes to 80% of the river's total pollution load.",
-    source: "CPCB Data 2024",
-  },
-  {
-    fact: "The toxic white foam on Yamuna is caused by high phosphate levels from laundry detergents and surfactants mixing with organic matter.",
-    source: "DPCC Research",
-  },
-  {
-    fact: "Dissolved Oxygen levels drop below 1 mg/L in Delhi, while fish need at least 5 mg/L to survive. The river is biologically dead in this stretch.",
-    source: "Water Quality Analysis",
-  },
-  {
-    fact: "Only 60% of Delhi's sewage is treated. The remaining 40% (over 1,300 MLD) flows untreated into the Yamuna every single day.",
-    source: "DJB Report 2024",
-  },
-  {
-    fact: "The Yamuna provides water to over 57 million people across 5 states, making its pollution a multi-state health and environmental crisis.",
-    source: "Central Water Commission",
-  },
-  {
-    fact: "During monsoon, the river's flow increases and temporarily improves water quality, but pollution returns as water levels drop in winter.",
-    source: "Seasonal Monitoring Data",
-  },
-];
-
 export const resources = [
   {
     type: "article",
@@ -100,5 +73,40 @@ export const resources = [
     description:
       "Track the progress of various sewage treatment plants and intervention projects along the river.",
     link: "https://mowr.gov.in/",
+  },
+];
+
+// src/data/contentData.js
+
+export const didYouKnowFacts = [
+  {
+    fact: "The Yamuna is one of the most polluted rivers in the world.",
+    source: "Central Pollution Control Board",
+    articleUrl: "https://example.com/yamuna-pollution-facts",
+  },
+  {
+    fact: "Over 70% of Delhi's sewage flows directly into the Yamuna.",
+    source: "Delhi Jal Board Report",
+    articleUrl: "https://example.com/delhi-sewage-yamuna",
+  },
+  {
+    fact: "The river supports over 57 million people across 5 states.",
+    source: "Yamuna Action Plan III",
+    articleUrl: "https://example.com/yamuna-population-support",
+  },
+  {
+    fact: "Yamuna's dissolved oxygen levels drop to near-zero in Delhi.",
+    source: "CPCB Water Quality Report",
+    articleUrl: "https://example.com/yamuna-oxygen-levels",
+  },
+  {
+    fact: "Industrial waste contributes 20% of the river's pollution.",
+    source: "National Green Tribunal",
+    articleUrl: "https://example.com/industrial-waste-yamuna",
+  },
+  {
+    fact: "The river once had over 150 species of fish, now less than 30 survive.",
+    source: "WWF India Study",
+    articleUrl: "https://example.com/yamuna-biodiversity-loss",
   },
 ];

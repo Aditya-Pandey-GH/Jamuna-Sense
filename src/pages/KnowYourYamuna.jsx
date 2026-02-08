@@ -3,7 +3,7 @@ import HeroSection from "../components/knowYourYamuna/Hero";
 import CriticalWarning from "../components/knowYourYamuna/CriticalWarning";
 import PollutionCharts from "../components/knowYourYamuna/PollutionCharts";
 import ImpactCards from "../components/knowYourYamuna/ImpactCards";
-import DidYouKnow from "../components/knowYourYamuna/DidyouKnow";
+import DidYouKnow from "../components/DidyouKnow/DidyouKnow";
 import ResourcesSection from "../components/knowYourYamuna/ResourcesSection";
 import CallToAction from "../components/knowYourYamuna/CallToAction";
 import "../components/knowYourYamuna/Global.css";
