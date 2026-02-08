@@ -1,0 +1,32 @@
+### GET
+GET https://jamuna-sense-backend.vercel.app/api/reports/
+
+
+### POST
+POST http://localhost:8000/api/reports/
+Content-Type: application/json
+
+{
+	"reportedBy": "A CK P",
+	"reporterEmail": "ackp@email.com",
+	"issueType": "Sewage Flow",
+	"multimedia": "Random.png",
+	"location": "Some Coordinates",
+	"description": "This particular ghaat is very dirty",
+	"resolved": false
+}
+
+
+### POST
+POST http://localhost:8000/api/auth/register/
+Content-Type: application/json
+
+{
+	"reportedBy": "A CK P",
+	"reporterEmail": "ackp@email.com",
+	"issueType": "Issue 1",
+	"multimedia": "xyz.png",
+	"location": "Some Coordinates",
+	"description": "This particular ghaat is very dirty",
+	"resolved": false
+}
