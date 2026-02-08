@@ -94,6 +94,7 @@ YamunaGuard directly supports **aquatic ecosystem protection** by:
 
 ## 🏗 Project Structure
 
+```
 yamunaguard/
 ├── backend/
 │ ├── models/
@@ -106,6 +107,7 @@ yamunaguard/
 │ │ ├── services/
 │ │ └── App.jsx
 └── README.md
+```
 
 ---
 
