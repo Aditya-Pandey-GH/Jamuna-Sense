@@ -1,0 +1,42 @@
+.report-button {
+  position: relative;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1a1a2e;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1.5px solid rgba(200, 200, 210, 0.4);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 
+    0 2px 8px rgba(0, 0, 0, 0.08),
+    0 1px 2px rgba(0, 0, 0, 0.04);
+  letter-spacing: -0.01em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', system-ui, sans-serif;
+}
+
+.report-button:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(180, 180, 190, 0.5);
+  transform: translateY(-1px);
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.report-button:active {
+  transform: translateY(0);
+  box-shadow: 
+    0 1px 4px rgba(0, 0, 0, 0.1),
+    0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+@media (max-width: 768px) {
+  .report-button {
+    padding: 10px 24px;
+    font-size: 0.9375rem;
+  }
+}

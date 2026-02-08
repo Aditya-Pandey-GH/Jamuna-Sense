@@ -1,0 +1,33 @@
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* 🌊 BACKGROUND IMAGE */
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* CONTENT ABOVE BACKGROUND */
+.home-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: give sections contrast */
+.content {
+  background: rgba(255, 255, 255, 0.9);
+  margin-top: 4rem;
+  border-radius: 24px 24px 0 0;
+  padding: 3rem;
+}
